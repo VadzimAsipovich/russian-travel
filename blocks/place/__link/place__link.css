@@ -1,0 +1,10 @@
+.place__link {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    padding-top: 13px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
