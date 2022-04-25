@@ -1,23 +1,11 @@
-# Проект: Путешествие по России
+# Project: Traveling around Russia
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+### Overview
+Learning project. It consists of one adaptive page, which contains texts and images about traveling in Russia.
+Files in the project are organized using BEM approach.
+Learning objectives are:
 
-**Интро**
-
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
-
-**Figma**
-
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+* Improve on using flexbox and grid
+* Make responsive and adaptive solutions
+* Use media queries
+* Get better at using Figma
