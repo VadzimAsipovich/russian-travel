@@ -1,22 +1,25 @@
 .intro {
-    padding: 64px 16px 64px 16px;
+    padding: 64px 5vw 64px 5vw;
+    align-self: flex-start;
 }
 
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
     .intro {
-        padding: 88px 24px 88px 24px;
+        padding: 88px 3.135vw 88px 3.135vw;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .intro {
-        padding: 92px 28% 92px 48px;
+        padding: 92px 0 92px 4.6875vw;
+        width: 690px;
     }
 }
 
 @media screen and (min-width: 1025px) {
     .intro {
-        padding: 96px 34.5% 92px 148px;
+        padding: 96px 0 92px calc((100vw - 984px)/2);
+        width: 690px;
     }
 }

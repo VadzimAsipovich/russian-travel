@@ -2,19 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 39px 0 0 0; 
+    padding-top: 39px; 
+    max-width: 984px;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .lead {
-        padding: 48px 48px 0 48px;
+        padding-top: 39px; 
+        width: 90.625vw;
     }
 }
 
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
     .lead {
-        padding: 56px 11.56% 0 11.56%;
+        padding-top: 56px;
+        width: 76.875vw;
     }
 }
 
