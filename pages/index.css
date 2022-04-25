@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/inter.css);
-@import url(../vendor/reset.css);
+@import url(../vendor/custom-reset.css);
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__cover/page__cover.css);
@@ -39,7 +39,6 @@
 @import url(../blocks/place/__website/place__website.css);
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 
