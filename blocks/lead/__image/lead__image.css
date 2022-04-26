@@ -3,21 +3,14 @@
     padding-top: 40px;
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .lead__image {
         padding-top: 56px;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px){
-    .lead__image {
-        padding-top: 56px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
     .lead__image {
         padding-top: 64px;
     }
 }
-

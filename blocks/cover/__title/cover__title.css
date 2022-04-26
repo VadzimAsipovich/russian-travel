@@ -4,20 +4,15 @@
     line-height: 35px;
     text-align: center;
     z-index: 2;
-    padding-bottom: 16px;
     width: 75%;
     max-width: 560px;
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-    .cover__title {
-        justify-content: center;
-        padding-bottom: 32px;
-    }
+    padding: 0px 0 18px 0;
 }
 
 @media screen and (min-width: 768px) {
     .cover__title {
+        justify-content: center;
+        padding-bottom: 32px;
         font-size: 72px;
         line-height: 76px;
         width: 560px;

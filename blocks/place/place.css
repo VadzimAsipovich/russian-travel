@@ -7,16 +7,11 @@
     padding-top: 18px;
 }
 
-@media screen and (min-width: 425px){
+@media screen and (min-width: 768px){
     .place {
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
-    }
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-    .place {
         padding-top: 92px;
     }
     .place:not(:first-child) {
@@ -24,7 +19,10 @@
     }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
+    .place {
+        padding-top: 61px;
+    }
     .place:not(:first-child) {
         padding-top: 80px;
     }

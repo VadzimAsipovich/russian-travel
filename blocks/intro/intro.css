@@ -5,21 +5,20 @@
     text-align: left;
 }
 
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .intro {
         padding: 88px 3.135vw 88px 3.135vw;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .intro {
         padding: 92px 0 92px 0;
         width: 90.625vw;
     }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
     .intro {
         padding: 92px 0 92px 0;
         width: 76.88vw;
