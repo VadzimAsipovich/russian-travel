@@ -1,10 +1,26 @@
 .footer__nav {
     display: flex;
     flex-direction: column;
+    padding-left: 16px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 425px) and (min-width: 768px) {
     .footer__nav {
         flex-direction: row;
+        padding: 0 0 0 24px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .footer__nav {
+        flex-direction: row;
+        padding: 0 0 0 48px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer__nav {
+        flex-direction: row;
+        padding: 0;
     }
 }

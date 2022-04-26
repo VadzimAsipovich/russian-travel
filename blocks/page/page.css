@@ -5,7 +5,11 @@
     font-style: normal;
     position: relative;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; 
+    -moz-osx-font-smoothing: grayscale;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1,h2,h3,p,ul {

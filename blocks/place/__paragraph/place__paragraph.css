@@ -4,7 +4,6 @@
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
-    max-width: 484px;
 }
 .place__paragraph:first-child {
     padding-bottom: 25px;
@@ -14,23 +13,5 @@
     .place__paragraph {
         font-size: 18px;
         line-height: 29px;
-    }
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-    .place__paragraph {
-        width: 45.83vw;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .place__paragraph {
-        width: 44.53vw;
-    }
-}
-
-@media screen and (min-width: 1025px) {
-    .place__paragraph {
-        width: 37.81vw;
     }
 }

@@ -2,16 +2,27 @@
     padding: 32px 5vw 0 5vw;
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 425px) {
     .place__website {
-        padding: 0;
+        padding: 0 0 45px 0;
         align-self: flex-end;
     }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
     .place__website {
-        padding: 0;
-        align-self: flex-end;
+        width: 48.8%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .place__website {
+        width: 49%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .place__website {
+        width: 49.2%;
     }
 }

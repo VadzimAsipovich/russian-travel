@@ -3,13 +3,16 @@
     font-size: 32px;
     line-height: 35px;
     padding: 0 5vw 0 5vw;
+    max-width: 460px;
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        padding: 0;
+        padding: 0 3.88% 45px 0;
+        width: 47.2%;
+        letter-spacing: 0.9px;
     }
 }
 
@@ -17,7 +20,8 @@
     .place__title {
         font-size: 72px;
         line-height: 76px;
-        padding: 0;
+        padding: 0 3.44% 48px 0;
+        width: 47.4%;
     }
 }
 
@@ -25,6 +29,7 @@
     .place__title {
         font-size: 72px;
         line-height: 76px;
-        padding: 0;
+        padding: 0 4% 48px 0;
+        width: 46.74%;
     }
 }

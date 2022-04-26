@@ -9,7 +9,11 @@
     justify-content: center;
     position: relative;
     width: 100vw;
-    height: calc(100vw * 0.625);    
+    max-width: 1184px;
+    max-height: 740px;
+    height: calc(100vw * 0.625);
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .cover:hover::after {

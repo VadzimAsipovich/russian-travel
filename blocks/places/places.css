@@ -1,6 +1,5 @@
 
 .places {
-    padding-top: 28px;
     max-width: 984px;
 }
 
@@ -12,14 +11,14 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .places {
-        padding-top: 88px;
-        width: 90.625vw;
+        padding-top: 30px;
+        width: 90.65vw;
     }
 }
 
 @media screen and (min-width: 1025px) {
     .places {
-        padding-top: 88px;
-        width: 76.875vw;
+        padding-top: 30px;
+        width: 76.88vw;
     }
 }

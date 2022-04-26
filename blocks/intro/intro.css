@@ -1,6 +1,8 @@
 .intro {
     padding: 64px 5vw 64px 5vw;
-    align-self: flex-start;
+    display: block;
+    max-width: 984px;
+    text-align: left;
 }
 
 
@@ -12,14 +14,14 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .intro {
-        padding: 92px 0 92px 4.6875vw;
-        width: 690px;
+        padding: 92px 0 92px 0;
+        width: 90.625vw;
     }
 }
 
 @media screen and (min-width: 1025px) {
     .intro {
-        padding: 96px 0 92px calc((100vw - 984px)/2);
-        width: 690px;
+        padding: 92px 0 92px 0;
+        width: 76.88vw;
     }
 }

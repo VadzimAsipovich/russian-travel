@@ -5,14 +5,12 @@
     text-align: center;
     z-index: 2;
     padding-bottom: 16px;
-    color: #FFFFFF;
-    text-decoration: none;
+    width: 75%;
+    max-width: 560px;
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
     .cover__title {
-        width: 100%;
-        max-width: 560px;
         justify-content: center;
         padding-bottom: 32px;
     }
