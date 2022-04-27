@@ -10,20 +10,19 @@
 @media screen and (min-width: 768px) {
     .footer {
         flex-direction: row;
-        padding: 88px 0 0 0;
+        padding-top: 88px;
+        padding-bottom: 0;
     }
 }
 
 @media screen and (min-width: 1024px){
     .footer {
-        flex-direction: row;
-        padding: 90px 0 0 0;
+        padding-top: 94px;
     }
 }
 
 @media screen and (min-width: 1280px){
     .footer {
-        flex-direction: row;
-        padding: 92px 0 0 0;
+        padding-top: 92px;
     }
 }

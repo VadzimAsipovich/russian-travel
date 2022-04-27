@@ -7,7 +7,7 @@
 
 @media screen and (min-width: 768px) {
     .intro {
-        padding: 88px 3.135vw 88px 3.135vw;
+        padding: 65px 3.135vw 88px 3.135vw;
     }
 }
 
@@ -20,7 +20,6 @@
 
 @media screen and (min-width: 1280px) {
     .intro {
-        padding: 92px 0 92px 0;
         width: 76.88vw;
     }
 }

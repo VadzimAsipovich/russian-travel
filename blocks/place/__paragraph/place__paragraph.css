@@ -5,6 +5,9 @@
     line-height: 26px;
     color: #FFFFFF;
     white-space: pre-line;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
 }
 .place__paragraph:first-child {
     padding-bottom: 25px;
