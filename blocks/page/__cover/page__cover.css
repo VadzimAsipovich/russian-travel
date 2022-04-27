@@ -13,9 +13,3 @@
         margin-top: 92px;
     }
 }
-
-@media screen and (min-width: 1280px) {
-    .page__cover {
-        margin: 92px 48px 0 48px;
-    }
-}
